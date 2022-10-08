@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form Validation</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <form action="./" id="signup">
+        <div class="input">
+            <label for="username" class="input__label">Username</label>
+            <input type="text" id="username" class="input__input">
+            <div class="input__error"></div>
+        </div>
+        <div>
+            <label for="preferredLanguage">Preferred Language</label>
+            <select name="preferredLanguage" id="preferredLanguage" class="input__input">
+                <option value="javascript">JavaScript</option>
+                <option value="typescript">TypeScript</option>
+                <option value="kotlin">Kotlin</option>
+                <option value="swift">Swift</option>
+            </select>
+            <div class="input__error"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
