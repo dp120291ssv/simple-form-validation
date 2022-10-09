@@ -30,7 +30,7 @@ export default class FormValidator {
             if(!pass){
                 this.inputsWithErrors.add(inputField);
             } else {
-                this.inputsWithErrors.remove(inputField);
+                this.inputsWithErrors.delete(inputField);
             }
         }
 
